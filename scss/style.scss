@@ -657,10 +657,11 @@ body {
 }
 
 .footer .footer_connect {
-    display: flex;
+   display: flex;
 }
 
 .footer .footer_connect a {
+    @extend %center;
     justify-content: center;
     width: 32px;
     height: 32px;
@@ -996,6 +997,7 @@ main .fas
 /*the end main*/
 /*shopping-cart.html*/
 /*single-page*/
+.content{margin-top: 0;}
 .for_slider {
     margin-top: 0;
     height: 777px;
@@ -1167,6 +1169,8 @@ main .fas
 
                 img {
                     margin-right: 15px;
+                    width: 30px;
+                    height: 30px;
                 }
             }
         }
