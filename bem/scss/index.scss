@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import "header/_header";
+@import "nav/_nav";
+@import "facion/_facion";
+@import "order/_order";
+@import "fetured/_fetured";
+@import "woomens/_bemWoomens";
+@import "subscribe/_subscribe";
+@import "company/_company";
+@import "footer/_footer";
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+.bemContainer {
+	width: 1140px;
+	margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+@import "_pictureTitleAbs";
+
+.order {
+	&_top {
+		margin-top: 100px;
+	}
+
+	.bemContainer {
+		display: flex;
+	}
+
+	&__inside {
+		display: flex;
+		flex-direction: column;
+
+		&_right {
+			margin-right: 20px;
+		}
+
+	}
+}
+
+
+
+
+

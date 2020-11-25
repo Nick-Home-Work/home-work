@@ -1,0 +1,18 @@
+.header__brand {
+	line-height: 60px;
+	background: url(../../img/brand.png) no-repeat;
+	font-size: 27px;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	color: #222222;
+	padding-left: 72px;
+
+}
+
+.header__span {
+	font-weight: 900;
+	&_red{
+	color:#f16d7f;
+}
+}
+

@@ -1,0 +1,55 @@
+@import "_bemWoomensInfo";
+@import "_bemTextPicture";
+.bemWoomens {
+	height: 529px;
+
+	&_margin {
+		margin-top: 110px;
+	}
+
+	.bemContainer {
+		display: flex;
+	}
+
+	&__picture {
+		position: relative;
+		height: inherit;
+		width: 767px;
+	}
+
+	&__text {
+		position: absolute;
+		color: #ffffff;
+
+		&_position {
+			top: 146px;
+			left: 40px;
+		}
+	}
+
+	&__h2 {
+		font-size: 55px;
+		font-weight: 700;
+	}
+
+	&__span {
+		color: #f16d7f;
+	}
+
+	&__h3 {
+		font-size: 32px;
+		font-weight: 700;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

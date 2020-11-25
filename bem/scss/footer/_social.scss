@@ -1,0 +1,22 @@
+.social {
+	display: flex;
+	&__link {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	background: #fff;
+	text-decoration: none;
+	color: #7a7a7a;
+		&_margin{
+		margin-left: 10px;
+		}
+		&:hover{
+		color: #fff;
+	background: #f16d7f;
+		}
+}
+}
+
+

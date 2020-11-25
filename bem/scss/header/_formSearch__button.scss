@@ -1,0 +1,22 @@
+.formSearch__button {
+	width: 36px;
+	height: inherit;
+	border: 0;
+	background: none;
+	border-left: 1px solid #e6e6e6;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #a4a4a4;
+
+	&_padding {
+		padding: 0 8px;
+	}
+
+	&_margin {
+		margin-left: auto;
+	}
+
+
+}

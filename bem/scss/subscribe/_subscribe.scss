@@ -1,0 +1,64 @@
+@import "bemLetter";
+@import "bemSubscribeForm";
+
+.subscribe {
+	margin-top: 96px;
+	height: 438px;
+	background: url(../../img/coust.jpg) no-repeat center bottom, #ccc;
+	background-blend-mode: overlay;
+	background-size: cover;
+
+	.bemContainer {
+		display: flex;
+		align-items: center;
+		height: inherit;
+	}
+}
+.bemSubscribe {
+	display: flex;
+	width: 600px;
+	flex-direction: column;
+	justify-content: center;
+	height: inherit;
+	border-left: 1px solid #e3e3e3;
+
+	&__heading {
+		text-align: center;
+	}
+
+	&__h2 {
+
+		text-transform: uppercase;
+		font-size: 24px;
+		line-height: 54px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 0.025em;
+		color: #222224;
+
+		&_top {
+			margin-top: 10px;
+		}
+	}
+
+	&__h3 {
+		font-size: 14px;
+		line-height: 24px;
+		text-transform: none;
+
+		&_margin {
+			margin: -10px 0 30px 0;
+		}
+	}
+
+
+}
+
+
+
+
+
+
+
+
+

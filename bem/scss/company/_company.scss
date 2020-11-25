@@ -1,0 +1,59 @@
+@import "_orderLink";
+.company {
+	&_top {
+		margin-top: 90px;
+	}
+
+	.bemContainer {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		height: inherit;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 24px;
+		color: #898989;
+
+
+	&__inside {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+
+		&_width {
+			width: 420px;
+		}
+	}
+		}
+	.header__brand_company{
+		margin: 20px 0 0 0;
+	}
+	&__p {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	color: #898989;
+		&_margin{
+		margin-top: 10px;
+		}
+		&_buttom{
+		margin-top: 40px;
+		}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

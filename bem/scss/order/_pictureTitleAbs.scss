@@ -1,0 +1,46 @@
+.pictureTitleAbs {
+	position: relative;
+
+	&_bottom {
+		margin-bottom: 20px;
+	}
+
+	&__item {
+		position: absolute;
+		background: #fff;
+		padding: 15px 20px;
+		background: white;
+		text-transform: uppercase;
+
+		&_top {
+			top: 25px;
+		}
+	}
+
+	&__h2 {
+		color: #f16d7f;
+		font-weight: 900;
+
+		&_size {
+			font-size: 30px;
+		}
+	}
+
+	&__h2 {
+		color: #f16d7f;
+		font-weight: 900;
+
+		&_size {
+			font-size: 30px;
+		}
+	}
+
+	&__h3 {
+		color: #222222;
+		font-weight: 700;
+
+		&_size {
+			font-size: 18px;
+		}
+	}
+}

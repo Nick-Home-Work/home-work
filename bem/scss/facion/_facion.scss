@@ -1,0 +1,30 @@
+.facion {
+	height: 610px;
+	background-color: #e8e8e8;
+
+	.bemContainer {
+		display: flex;
+		align-items: center;
+		background: url(../../img/guy.png) no-repeat 550px 0;
+		background-size: 550px;
+		height: inherit;
+	}
+
+	&__info {
+		border-left: 12px solid #f16d7f;
+		padding-left: 12px;
+	}
+
+	&__h2 {
+		font-weight: 900;
+		font-size: 60px;
+		line-height: 41px;
+	}
+
+	&__h3 {
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 32px;
+		margin-top: 20px;
+	}
+}

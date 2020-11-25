@@ -1,0 +1,27 @@
+@import "_figure";
+@import "_shadowButton";
+@import "_bemItemsButton";
+.bemFetured {
+	&_decor{
+		margin-top: 100px;
+	text-align: center;
+	}
+	&__h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+	&__small {
+	display: block;
+	margin-top: 15px;
+	color: #9f9f9f;
+	font-size: 14px;
+}
+	.bemContainer{
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+		&_top{
+			margin-top: 60px;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.bemButton {
+	display: flex;
+	align-items: center;
+
+	&_margin {
+		margin-left: auto;
+		margin-right: 25px;
+	}
+
+	&__account {
+		padding: 15px;
+		background-color: #f16d7f;
+		color: white;
+		border: none;
+
+		&_margin {
+			margin-left: 20px;
+		}
+	}
+
+}

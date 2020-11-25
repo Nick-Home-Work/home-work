@@ -1,0 +1,16 @@
+@import "formSearch__browse";
+@import "formSearch__input";
+.formSearch {
+	display: flex;
+    align-items: center;
+	overflow: hidden;
+}
+.formSearch_size{
+	width: 400px;
+	height: 40px;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+}
+.formSearch_margin{
+	margin-left: 44px;
+}

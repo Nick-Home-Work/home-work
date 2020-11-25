@@ -1,0 +1,24 @@
+.bemItemsButton {
+	display: flex;
+	align-items: center;
+	width: 212px;
+	height: 48px;
+	padding-left: 21px;
+	background: #f16d7f;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+
+	&_margin {
+		margin: 60px auto;
+	}
+
+	&__img {
+		width: auto;
+
+		&_margin {
+			margin-left: 10px;
+		}
+	}
+}
