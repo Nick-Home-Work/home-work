@@ -1,0 +1,82 @@
+/*order*/
+.order {
+	margin-top: 100px;
+
+	@media (max-width: 636px) {
+		& {
+			margin-top: 50px;
+		}
+	}
+
+	.container {
+		display: flex;
+
+
+		@media (max-width: 636px) {
+			& {
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+
+		}
+	}
+
+	& .right {
+		margin-right: 20px;
+	}
+
+	& .order_inside {
+		display: flex;
+		flex-direction: column;
+
+		& .bottom {
+			margin-bottom: 20px;
+		}
+
+		& .for_img {
+			position: relative;
+			& img{
+				width: 100%;
+				display: block;
+			}
+			& .order_item {
+				position: absolute;
+				background: #fff;
+				top: 25px;
+				padding: 15px 20px;
+				background: white;
+				text-transform: uppercase;
+				@media (max-width: 500px){
+					&{
+						bottom:20px;
+						top:auto;
+						padding: 5px 10px;
+					}
+				}
+
+				& h2 {
+					font-size: 30px;
+					color: $color_red;
+					font-weight: 900;
+					@media (max-width: 500px){
+						&{
+						font-size: 20px;
+						}
+					}
+				}
+
+				& h3 {
+					font-size: 18px;
+					color: #222222;
+					font-weight: 700;
+					@media (max-width: 500px){
+						&{
+						font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

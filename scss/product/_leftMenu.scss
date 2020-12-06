@@ -1,0 +1,90 @@
+/* menu left*/
+.do_change {
+	& .container {
+		margin-top: 60px;
+		display: flex;
+		justify-content: flex-start;
+		@media (max-width: 895px) {
+			&{flex-direction: column;}
+		}
+
+		& .accordeonItem {
+			margin-right: 20px;
+			width: 200px;
+			display: flex;
+			flex-direction: column;
+			&:not(:last-child){
+				margin-bottom: 17px;
+				@media (max-width: 895px) {
+					& {
+						width: 100%;
+						margin-right: 0;
+
+					}
+				}
+			}
+
+			& .header_active {
+				font-size: 14px;
+				line-height: 20px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #6f6e6e;
+				border-bottom: 1px solid #ebebeb;
+
+				& > div {
+			padding: 14px 16px;
+			border-left: 5px solid #ef5b70;
+			font-size: 14px;
+			line-height: 20px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #6f6e6e;
+			display: flex;
+			justify-content: space-between;
+			position: relative;
+
+		}
+				& .bordo{
+					color: #ef5b70;
+				 i{
+					-webkit-transform: rotate(180deg);
+				-ms-transform: rotate(180deg);
+				transform: rotate(180deg);
+				 }
+
+				}
+
+				& i{
+					float:right;
+					margin-right: 10px;
+					margin-top: 3px;
+
+				}
+			}
+
+			& .card-body {
+				margin-top: 17px;
+                display: none;
+
+				& a {
+					display: block;
+					font-size: 14px;
+					line-height: 33px;
+					font-weight: 400;
+					color: #6f6e6e;
+					text-decoration: none;
+					padding-bottom: 17px;
+					padding-left: 15px;
+				}
+			}
+
+            & .show{
+					display: block;
+				}
+		}
+	}
+}
+
+
+/* the end menu left*/

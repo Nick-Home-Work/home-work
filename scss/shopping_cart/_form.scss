@@ -1,0 +1,272 @@
+/*for_form*/
+.for_form {
+
+	& .containerForm {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 63px;
+		align-items: flex-start;
+
+		@media (max-width: 939px) {
+			& {
+				flex-wrap: wrap;
+			}
+
+			justify-content: center;
+		}
+
+
+
+		form {
+			max-width: 355px;
+			min-height: 215px;
+			& div{
+				display: flex;
+				flex-direction: column;
+			}
+
+			& div button {
+				padding: 12px 15px;
+				border: 1px solid #eaeaea;
+				background: #fff;
+				font-size: 11px;
+				line-height: 1.2;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #4a4a4a;
+				cursor: pointer;
+
+
+				&:hover {
+					color: #fff;
+					background: $color_background;
+				}
+			}
+
+			@media (max-width: 939px) {
+				& {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					min-width: 50%;
+					margin-top: 30px;
+					justify-content: center;
+				}
+
+				&:first-child {
+					text-align: center;
+					min-width: 100%;
+					max-width: 100%;
+					min-height: auto;
+				}
+
+
+				&:first-child > div {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					min-height: auto;
+				}
+			}
+
+			@media (max-width: 725px) {
+				& {
+					text-align: center;
+					min-height: auto;
+				}
+
+				& > div {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: center;
+					min-height: auto;
+				}
+			}
+
+			@media (max-width: 525px) {
+				& > div {
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					min-height: auto;
+				}
+			}
+
+			h2 {
+				margin-bottom: 27px;
+				font-size: 16px;
+				line-height: 1.2;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #222222;
+			}
+
+			& input,
+			& select {
+				max-width: 355px;
+				height: 45px;
+				margin-top: 10px;
+				background-color: #ffffff;
+				border: 1px solid #eaeaea;
+				font-size: 13px;
+				font-weight: 300;
+				padding: 13px;
+				font-family: inherit;
+				outline: none;
+				box-sizing: border-box;
+				margin-bottom: 20px;
+
+				@media (max-width: 939px) {
+					& {
+						margin-right: 20px;
+					}
+				}
+
+
+				& input::-moz-placeholder {
+					/* Firefox 19+ */
+					font-size: 13px;
+					line-height: 1.2;
+					font-weight: 300;
+					color: #b1b1b1;
+				}
+
+				& input:-ms-input-placeholder {
+					/* IE 10+ */
+					font-size: 13px;
+					line-height: 1.2;
+					font-weight: 300;
+					color: #b1b1b1;
+				}
+
+				& select {
+					font-size: 13px;
+					line-height: 1.2;
+					font-weight: 300;
+					color: #b1b1b1;
+				}
+
+				& input:-moz-placeholder {
+					/* Firefox 18- */
+					font-size: 13px;
+					line-height: 1.2;
+					font-weight: 300;
+					color: #b1b1b1;
+				}
+
+				& button {
+					padding: 12px 15px;
+					border: 1px solid #eaeaea;
+					background: #fff;
+					font-size: 11px;
+					line-height: 1.2;
+					font-weight: 700;
+					text-transform: uppercase;
+					color: #4a4a4a;
+					cursor: pointer;
+
+					&:hover {
+						color: #fff;
+						background: $color_background;
+					}
+				}
+
+				& label {
+					display: block;
+					font-size: 14px;
+					line-height: 1.2;
+					font-weight: 300;
+					color: #000000;
+					margin-bottom: 25px;
+
+					@media (max-width: 939px) {
+						& {
+							margin-bottom: 25px;
+							margin-right: 20px;
+						}
+					}
+				}
+
+
+			}
+
+			& .subtotal {
+				max-width: 360px;
+				min-width: 200px;
+				background-color: #f5f3f3;
+				padding: 40px;
+				box-sizing: border-box;
+
+
+				@media (max-width: 939px) {
+					& {
+						min-width: 40%;
+						margin-top: 30px;
+					}
+				}
+
+				@media (max-width: 725px) {
+					& {
+						min-width: 50%;
+						margin-top: 30px;
+					}
+				}
+
+				& .subtotal_info {
+					border-bottom: 1px solid #e2e2e2;
+					margin-bottom: 14px;
+					text-transform: uppercase;
+					text-align: right;
+
+					& h3 {
+						font-size: 11px;
+						line-height: 1.2;
+						font-weight: 400;
+						text-transform: uppercase;
+						color: #4a4a4a;
+						text-align: right;
+					}
+
+					& h2 {
+						text-align: right;
+						color: #222222;
+						font-size: 16px;
+						line-height: 1.2;
+						font-weight: 700;
+						text-transform: uppercase;
+						color: #222222;
+						padding-bottom: 22px;
+						margin-bottom: 17px;
+
+						& span {
+							color: $color_red;
+							margin-left: 20px;
+						}
+					}
+
+					& span {
+						margin-left: 15px;
+					}
+
+				}
+
+				& .subButton {
+				    width: 273px;
+					height: 50px;
+					background-color: $color_background;
+					padding: 16px 28px;
+					text-align: center;
+					font-size: 16px;
+					line-height: 1.2;
+					font-weight: 700;
+					text-transform: uppercase;
+					color: #ffffff;
+					float: right;
+					border: none;
+				}
+			}
+		}
+
+	}
+}

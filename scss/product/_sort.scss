@@ -1,0 +1,44 @@
+/*sort*/
+.sort {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	max-width: 846px;
+	height: 50px;
+	background-color: #f3f3f3;
+
+	.for_select {
+		display: flex;
+		justify-content: space-between;
+		margin-left: 11px;
+		width: 153px;
+		height: 30px;
+		background-color: #ffffff;
+		border: 1px solid #ebebeb;
+		overflow: hidden;
+
+		div {
+			width: 50%;
+			padding-left: 20px;
+			height: inherit;
+			font-size: 14px;
+			line-height: 30px;
+			font-weight: 400;
+			color: #6f6e6e;
+			border-right: 1px solid #ebebeb;
+		}
+
+		.select {
+			width: 50%;
+			height: inherit;
+			border: none;
+			font-size: 14px;
+			line-height: 26px;
+			font-weight: 400;
+			color: #6f6e6e;
+			padding: 0;
+		}
+	}
+}
+
+/*the end sort*/

@@ -1,0 +1,56 @@
+/*the end company*/
+.footer {
+	width: 100%;
+	margin-top: 90px;
+	min-height: 100px;
+	background: #e6e6e6;
+	@media (max-width: 485px) {
+		&{margin-top: 30px;}
+		}
+	& .container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100px;
+
+		@media (max-width: 485px) {
+			&{flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+		& .footer_info {
+		font-size: 16px;
+		line-height: 42px;
+		font-weight: 400;
+		letter-spacing: 0.025em;
+		color: #7a7a7a;
+	}
+& .footer_connect {
+		display: flex;
+
+		& a {
+			@extend %center;
+			justify-content: center;
+			width: 32px;
+			height: 32px;
+			background: #fff;
+			margin-left: 10px;
+			text-decoration: none;
+			color: #7a7a7a;
+
+			&:hover {
+				color: #fff;
+				background: $color_background;
+			}
+		}
+
+
+	}
+
+}
+
+
+}
+
+
+

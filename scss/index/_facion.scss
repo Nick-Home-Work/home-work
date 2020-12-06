@@ -1,0 +1,77 @@
+/*facion*/
+.facion {
+	height: 610px;
+	background-color: #e8e8e8;
+
+	& .container {
+		@extend %center;
+		background: url(../img/guy.png) no-repeat 550px 0;
+		background-size: 550px;
+		height: inherit;
+		@media (max-width: 1164px) {
+			&{background: url(../img/guy.png) no-repeat 450px 0;
+				background-size: 550px;}
+		}
+		@media (max-width: 956px) {
+			&{background: url(../img/guy.png) no-repeat 400px 79px;}
+		background-size: 550px;
+		}
+		@media (max-width: 806px) {
+			&{background: url(../img/guy.png) no-repeat 300px 100px;}
+		background-size: 550px;
+		}
+		@media (max-width: 698px) {
+			&{background: url(../img/guy.png) no-repeat 200px 0;}
+		background-size: 550px;
+		}
+		@media (max-width: 608px) {
+			&{background: url(../img/guy.png) no-repeat 100px 100px;}
+		background-size: 550px;
+			align-items: flex-end;
+		}
+		@media (max-width: 512px) {
+			&{background: url(../img/guy.png) no-repeat 30px 100px;}
+		background-size: 550px;
+		}
+		@media (max-width: 422px) {
+			&{background: url(../img/guy.png) no-repeat 0px 100px;}
+		background-size: 550px;
+		}
+		@media (max-width: 356px) {
+			&{background: url(../img/guy.png) no-repeat 0px 100px;}
+		background-size: 550px;
+		}
+	}
+
+	& .info {
+		border-left: 12px solid $color_border;
+		padding-left: 12px;
+
+		& h2 {
+			font-weight: 900;
+			font-size: 60px;
+			line-height: 41px;
+			@media (max-width: 356px) {
+				&{font-size: 30px;}
+			}
+		}
+
+		& h3 {
+			font-weight: 400;
+			font-size: 40px;
+			line-height: 32px;
+			margin-top: 20px;
+			@media (max-width: 356px) {
+				&{font-size: 20px;}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+/*the end facion*/

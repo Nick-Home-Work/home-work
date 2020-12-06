@@ -1,0 +1,28 @@
+.for_slider {
+	margin-top: 0;
+	max-height: 777px;
+	background-color: #f7f7f7;
+	border: 1px solid #eaeaea;
+
+	& .slidContainer {
+		max-width: 1140px;
+		margin: 0 auto;
+		height: inherit;
+		position: relative;
+
+		& .sliderImg {
+			width: 100%;
+			height: auto;
+		}
+
+		.prev {
+			@extend %button-slider;
+			left: 0;
+		}
+
+		.next {
+			@extend %button-slider;
+			right: 0;
+		}
+	}
+}

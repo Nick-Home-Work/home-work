@@ -1,0 +1,84 @@
+//.oue_goods {
+//	display: flex;
+//	justify-content: flex-start;
+//
+//	& .trnding_wripper {
+//		text-align: left;
+//		width: 270px;
+//		height: 80px;
+//		border: 1px solid red;
+//
+//		& h2 {
+//			font-size: 14px;
+//			line-height: 20px;
+//			font-weight: 700;
+//			text-transform: uppercase;
+//			color: #6f6e6e;
+//		}
+//
+//		& .mo_have {
+//			display: flex;
+//			justify-content: space-between;
+//			flex-wrap: wrap;
+//
+//			& a:not(:last-child) {
+//				font-size: 14px;
+//				line-height: 26px;
+//				font-weight: 400;
+//				color: #6f6e6e;
+//				text-decoration: none;
+//				border-right: 1px solid #dfdfdf;
+//			}
+//
+//		}
+//	}
+//
+//	& .size_wripper {
+//		width: 240px;
+//		height: 89px;
+//		border: 1px solid red;
+//
+//		& h2 {
+//			font-size: 14px;
+//			line-height: 20px;
+//			font-weight: 700;
+//			text-transform: uppercase;
+//			color: #6f6e6e;
+//		}
+//
+//		& .oue_size {
+//			display: flex;
+//			justify-content: flex-start;
+//			flex-wrap: wrap;
+//
+//			& .form-check {
+//				margin-right: 15px;
+//				font-size: 14px;
+//				line-height: 20px;
+//				font-weight: 400;
+//				text-transform: uppercase;
+//				color: #6f6e6e;
+//
+//				& input {
+//					margin-right: 3px;
+//					width: 13px;
+//					height: 13px;
+//					background-color: #ffffff;
+//					border: 1px solid #ebebeb;
+//				}
+//			}
+//		}
+//	}
+//	& .wripper_prise{
+//		width: 270px;
+//		height: 80px;
+//		border:1px solid red;
+//		& h2{
+//			font-size: 14px;
+//			line-height: 20px;
+//			font-weight: 700;
+//			text-transform: uppercase;
+//			color: #6f6e6e;
+//		}
+//	}
+//}
