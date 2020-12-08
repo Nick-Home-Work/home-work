@@ -3,6 +3,7 @@
 @import "shopping_cart/_shoppingCart";
 @import "single_page/_singlePage";
 @import "product/_product";
+@import "checkout/_checkout";
 
 * {
 	margin: 0;
@@ -14,6 +15,7 @@ body {
 	width: 100%;
 	height: 100%;
 	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
 }
 
 .red {

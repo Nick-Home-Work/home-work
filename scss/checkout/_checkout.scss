@@ -1,0 +1,270 @@
+.checkout {
+	& .container {
+		margin-top: 90px;
+		min-height: 100px;
+		display: flex;
+		flex-direction: column;
+   		& .formContayner {
+			display: flex;
+
+			@media (max-width: 675px) {
+					&{
+						flex-direction: column;
+						align-items: center;
+
+				}
+		}
+
+			& .checkform {
+				display: flex;
+				flex-direction: column;
+				width: 260px;
+				height: 400px;
+
+				margin-right: 280px;
+				@media (max-width: 950px) {
+					&{margin-right: 20px;}
+		}
+
+				& small {
+					display: block;
+					font-family: Lato;
+					font-size: 13px;
+					line-height: 20px;
+					font-weight: 400;
+					color: #b3b2b2;
+				}
+
+
+				& string {
+					margin-bottom: 40px;
+					font-family: Lato;
+					font-size: 13px;
+					line-height: 1.2;
+					font-weight: 400;
+					text-transform: uppercase;
+					color: #222222;
+				}
+
+				& .forAll {
+					width: 100%;
+					height: 230px;
+					margin-left: 30px;
+
+					& .forInfo {
+						margin-bottom: 25px;
+
+						& .fa {
+							font-family: FontAwesome;
+							font-size: 13px;
+							line-height: 20px;
+							font-weight: 400;
+							color: #b3b2b2;
+							margin-right: 3px;
+						}
+
+						& string {
+							margin-bottom: 15px;
+							display: block;
+							font-family: Lato;
+							font-size: 13px;
+							line-height: 1.2;
+							font-weight: 400;
+							text-transform: uppercase;
+							color: #222222;
+						}
+
+
+					}
+
+
+					& .wripCheck {
+						margin-top: 30px;
+						margin-bottom: 30px;
+
+						& .checkBoxDiv {
+							width: 100%;
+							height: 14px;
+							display: flex;
+							align-items: center;
+
+							&:last-child {
+								margin-top: 10px;
+							}
+
+							& label {
+								margin-left: 10px;
+
+								font-family: Lato;
+								font-size: 12px;
+								line-height: 1.2;
+								font-weight: 400;
+								text-transform: uppercase;
+								color: #222222;
+							}
+
+						}
+					}
+
+					& .checkButton {
+						width: 180px;
+						height: 50px;
+						background-color: #ffffff;
+						border: 1px solid #eaeaea;
+						font-size: 14px;
+						line-height: 1.2;
+						font-weight: 700;
+						text-transform: uppercase;
+						color: #4a4a4a;
+
+					}
+
+				}
+
+			}
+
+			& .logIn {
+				margin-top: 55px;
+				width: 397px;
+				height: 350px;
+				display: flex;
+				flex-direction: column;
+
+				@media (max-width: 400px) {
+					&{
+						width: 320px;
+
+				}
+		}
+
+
+				& div {
+					display: flex;
+					flex-direction: column;
+					margin-bottom: 15px;
+
+					& string,
+					& lable,
+					&small {
+						display: block;
+					}
+
+					& string {
+						font-family: Lato;
+						font-size: 13px;
+						line-height: 1.2;
+						font-weight: 400;
+						text-transform: uppercase;
+						color: #222222;
+					}
+
+					& lable {
+						font-family: Lato;
+						font-size: 12px;
+						line-height: 20px;
+						font-weight: 400;
+						color: #222222;
+						margin-bottom: 15px;
+
+						&.last {
+							margin-top: 20px;
+						}
+					}
+
+					& small {
+						margin-top: 5px;
+						font-family: Lato;
+						font-size: 13px;
+						line-height: 20px;
+						font-weight: 400;
+						color: #b3b2b2;
+					}
+
+					& input {
+						width: 100%;
+						height: 45px;
+						background-color: #ffffff;
+						border: 1px solid #eaeaea;
+
+						&:first-child {
+							margin-bottom: 20px;
+						}
+					}
+
+
+
+
+
+				}
+
+				& .error {
+					margin-top: 15px;
+					height: 50px;
+
+					& small {
+						font-size: 13px;
+						line-height: 20px;
+						font-weight: 400;
+						color: #ff0d0d;
+					}
+				}
+
+				& .logInSend {
+					display: inline-block;
+					font-size: 14px;
+					line-height: 20px;
+					font-weight: 400;
+					color: #222222;
+
+					& button {
+						margin-right: 30px;
+						width: 180px;
+						height: 50px;
+						border: 1px solid #eaeaea;
+						font-size: 14px;
+						line-height: 1.2;
+						font-weight: 700;
+						text-transform: uppercase;
+						color: #4a4a4a;
+						background: #fff;
+						@media (max-width: 400px) {
+					&{
+						width: 120px;
+
+				}
+		}
+					}
+				}
+			}
+		}
+
+		& .checkoutUrder {
+			width: 100%;
+			height: 367px;
+			margin-top: 50px;
+
+
+			& ol {
+
+				& li {
+					list-style-type: none;
+					height: 74px;
+					border-top: 1px solid#e8e8e8;
+					line-height: 74px;
+					font-family: Lato;
+					font-size: 16px;
+					line-height: 72px;
+					font-weight: 700;
+					text-transform: uppercase;
+					color: #222222;
+
+				}
+
+				&:last-child {
+					border-bottom: 1px solid#e8e8e8;
+				}
+			}
+		}
+
+	}
+}
